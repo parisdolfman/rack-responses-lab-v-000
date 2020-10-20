@@ -5,11 +5,11 @@ class Application
 
     time = Time.now
 
-    if time > 12 
+    if time > 12
       resp.write "Good Morning!"
-    else 
+    else
       resp.write "Good Afternoon!"
-    end 
+    end
     resp.finish
   end
 end
